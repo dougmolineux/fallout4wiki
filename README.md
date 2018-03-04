@@ -2,6 +2,18 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.0.
 
+Currently, this application is only pulling in the achievements. The achievements are pulled from a JSON file located in the data directory.
+
+## Issues
+
+- Only print achievements in the achievement section, remove data at the end of the achievement array that is not relevant.
+
+## New Features
+
+- Add Items, Settlements, Bobbleheads, Magazines
+- Improve User Interface
+- Add Search Functionality
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
