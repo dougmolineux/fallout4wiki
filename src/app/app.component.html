@@ -5,9 +5,12 @@
   </h1>
   <img width="300" alt="Angular Logo" src="https://vignette.wikia.nocookie.net/fallout/images/e/e9/Fallout_4_box_cover.jpg/revision/latest/scale-to-width-down/700?cb=20170220211249">
 </div>
-Achievements
-<ul>
-  <li *ngFor="let ach of achievements; let i = index">
-    {{ i }} - {{ ach.Field1 }}
-  </li>
-</ul>
+<div>
+  <h1>Achievements</h1>
+</div>
+<div>
+  <span *ngFor="let trophy of namesOfTrophies">
+    <img src="https://static.giantbomb.com/uploads/scale_medium/1/14070/1067976-40_bronze.png">
+    {{ trophy.Field1 }}&nbsp;
+  </span>
+</div>
